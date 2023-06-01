@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: 000;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+p {
+    margin: 0;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 112px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(/src/img/bg-header.jpg) no-repeat center top / cover;
+    padding-top: 57px;
+    color: #fff;
+    padding-bottom: 322px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.number {
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.header__content {
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+
+.header__content p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.header__content h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+}
+
+.content__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    white-space: nowrap;
+}
+
+.intro__des {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__des p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.62em;
+}
+
+.intro__des h3 {
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+
+.intro__des--left {
+    margin-right: 36px;
+}
+
+
+.intro__des--left .intro__des--right {
+    width: 567px;
+}
+
+.intro__gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.outro__text {
+    font-size: 15px;
+    display: flex;
+    padding: 114px 0;
+}
+
+.outro__text p {
+    margin-right: 67px;
+}
